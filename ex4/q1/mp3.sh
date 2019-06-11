@@ -3,6 +3,7 @@
 function usage() {
 	if [[ -z "$1" ]] || [[ -z "$2" ]]; then
 		echo "Wrong number of passed args: Must pass an extension and a dir path!"
+		echo "usage: [extension] [directory_path]"
 		exit 1
 	fi
 } #usage
