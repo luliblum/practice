@@ -16,5 +16,5 @@ else:
         else:
             all_freq[i]=1
 
-print ("count of all characters in geeksforgeeks is :\n"+ str(all_freq))
+print ("count of all characters in " +"'"+ test_str +"'" + " is :"+" \n"+ str(all_freq))
 
