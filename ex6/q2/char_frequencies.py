@@ -7,6 +7,7 @@ import os
 all_freq={}
 if len(sys.argv) < 2:
     print ("the string to check is missing!!!")
+    print ("usage: <string to check>")
     exit(0)
 else:
     test_str=sys.argv[1]
