@@ -14,6 +14,7 @@ usage $1, $2
 extension=$1
 dir=$2
 
+
 if [[ $dir != */ ]]; then
 	dir="$dir/"
 fi
