@@ -32,6 +32,7 @@ if [[ -d $DIR ]]
 #in case the path_dir doesn't exist
 	else
   		echo "The path '$DIR' directory does not exists"
+		echo "'$DIR' is not a valid directory"
 fi
 
 
