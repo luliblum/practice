@@ -22,16 +22,18 @@ usage $1, $2
 word=$1
 DIR=$2
 
+#checking if the path_dir exists
 if [[ -d $DIR ]]
-then
-  echo "The string '$word' find in this files:"
-  echo "-----------------------------------"
-  egrep -ril  $word $DIR
-else
- echo "The path '$DIR' directory does not exists"
+	then
+  		echo "The string '$word' find in this files:"
+  		echo "-----------------------------------"
+#recursivly search of word in files"
+  		egrep -ril  $word $DIR   
+#in case the path_dir doesn't exist
+	else
+  		echo "The path '$DIR' directory does not exists"
 fi
 
-#egrep -ril $dir_path  $word
 
 
 
